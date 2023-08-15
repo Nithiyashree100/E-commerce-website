@@ -1,0 +1,158 @@
+body {
+    background-color: #f9f3f09f; /* Cool light blue color for the background */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.site-title {
+    text-align: center;
+    margin: 40px 0; /* Add top and bottom margin for spacing */
+    font-size: 36px; /* Increase the font size */
+    font-family: 'Riona Sans', sans-serif; /* Apply the desired font */
+    font-weight: bold;
+    font-style: italic;
+    color: #333; /* Change the font color */
+}
+@font-face {
+    font-family: 'Riona Sans';
+    src: url('path/to/RionaSans-BoldItalic.woff2') format('woff2'),
+         url('path/to/RionaSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f028cf;
+    color: #fff;
+    padding: 30px 30px;
+}
+
+.header-container h1 {
+    font-size: 50px; /* Increase the font size of the website title */
+    font-family: 'Riona Sans', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #333;
+    margin: 0;
+}
+
+.new-arrivals {
+    text-align: center; /* Center-align the "New Arrivals" section */
+    margin-top: 5px; /* Add some top margin for spacing */
+}
+
+.new-arrivals h2 {
+    font-size: 25px; /* Increase the font size of the "New Arrivals" subheading */
+    font-family: 'Riona Sans', sans-serif; /* Use the custom font family */
+    font-weight: bold;
+    font-style: italic;
+    color: #333; /* Change the font color */
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block; /* Display the navigation links inline */
+}
+
+nav ul li {
+    display: inline; /* Display each navigation item inline */
+    margin: 0 20px; /* Add spacing between navigation items */
+}
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.user-actions a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px; /* Add spacing between user action links */
+}
+
+.cart-icon img {
+    width: 30px; /* Adjust the size of the cart icon */
+    height: 30px;
+}
+
+.header-container img {
+    height: 30px;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Additional styles for the new features */
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.product-card {
+    width: calc(30% - 20px); 
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.product-card h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    margin: 0;
+    color: #777;
+}
+
+.product-card .price {
+    font-size: 18px;
+    color: #2874f0;
+    font-weight: bold;
+}
+
+.product-details-modal {
+    display: none;
+    /* Add styles for the product details modal */
+}
+
+.product-card button {
+    background-color: #2874f0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
